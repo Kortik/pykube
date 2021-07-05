@@ -14,7 +14,7 @@ spec:
         app: hw-py
     spec:
       containers:
-      - image: registry.hub.docker.com/k0rt1k/hola:latest
+      - image: registry.hub.docker.com/k0rt1k/hola/v0.280
         name: hola
         imagePullPolicy: Always
         ports:
